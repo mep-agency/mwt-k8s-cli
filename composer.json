@@ -1,6 +1,6 @@
 {
-    "name": "mep-agency/mwt-k8s-cli",
-    "description": "A CLI tool to deploy and manage MWT projects on a K8s cluster",
+    "name": "mep-agency/web-toolkit-k8s-cli",
+    "description": "A CLI tool to deploy and manage MEP Web Toolkit projects on a K8s cluster",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mep\\MwtK8sCli\\": "src"
+            "Mep\\MepWebToolkitK8sCli\\": "src"
         }
     },
     "extra": {

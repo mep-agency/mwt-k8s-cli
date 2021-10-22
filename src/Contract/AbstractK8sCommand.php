@@ -11,13 +11,13 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli\Contract;
+namespace Mep\MepWebToolkitK8sCli\Contract;
 
-use Mep\MwtK8sCli\Config\Argument;
-use Mep\MwtK8sCli\Config\Option;
-use Mep\MwtK8sCli\Exception\StopExecutionException;
-use Mep\MwtK8sCli\Factory\KubernetesClusterFactory;
-use Mep\MwtK8sCli\K8sCli;
+use Mep\MepWebToolkitK8sCli\Config\Argument;
+use Mep\MepWebToolkitK8sCli\Config\Option;
+use Mep\MepWebToolkitK8sCli\Exception\StopExecutionException;
+use Mep\MepWebToolkitK8sCli\Factory\KubernetesClusterFactory;
+use Mep\MepWebToolkitK8sCli\K8sCli;
 use RenokiCo\PhpK8s\Exceptions\KubernetesAPIException;
 use RenokiCo\PhpK8s\Kinds\K8sResource;
 use RenokiCo\PhpK8s\KubernetesCluster;

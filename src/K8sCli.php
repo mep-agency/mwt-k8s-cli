@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli;
+namespace Mep\MepWebToolkitK8sCli;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\Console\Command\Command;
@@ -36,7 +36,7 @@ class K8sCli
     /**
      * @var string
      */
-    public const K8S_CREATED_BY_LABEL_VALUE = 'mwt-k8s-cli';
+    public const K8S_CREATED_BY_LABEL_VALUE = 'web-toolkit-k8s-cli';
 
     /**
      * @var array<string, string>

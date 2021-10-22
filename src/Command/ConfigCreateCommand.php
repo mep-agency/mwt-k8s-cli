@@ -11,10 +11,10 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli\Command;
+namespace Mep\MepWebToolkitK8sCli\Command;
 
-use Mep\MwtK8sCli\Config\Option;
-use Mep\MwtK8sCli\Service\K8sConfigGenerator;
+use Mep\MepWebToolkitK8sCli\Config\Option;
+use Mep\MepWebToolkitK8sCli\Service\K8sConfigGenerator;
 use RuntimeException;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;

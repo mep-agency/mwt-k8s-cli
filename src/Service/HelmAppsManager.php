@@ -11,11 +11,11 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli\Service;
+namespace Mep\MepWebToolkitK8sCli\Service;
 
 use DateTimeImmutable;
-use Mep\MwtK8sCli\Exception\AppConfigurationNotFoundException;
-use Mep\MwtK8sCli\Exception\StopExecutionException;
+use Mep\MepWebToolkitK8sCli\Exception\AppConfigurationNotFoundException;
+use Mep\MepWebToolkitK8sCli\Exception\StopExecutionException;
 use RenokiCo\PhpHelm\Helm;
 use RenokiCo\PhpK8s\Kinds\K8sPod;
 use RenokiCo\PhpK8s\KubernetesCluster;

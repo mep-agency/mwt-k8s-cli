@@ -38,5 +38,5 @@ Selector labels
 {{- define "app.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "app.name" . }}
 app.kubernetes.io/instance: {{ include "app.projectName" . }}
-app.kubernetes.io/created-by: mwt-k8s-cli
+app.kubernetes.io/created-by: web-toolkit-k8s-cli
 {{- end }}

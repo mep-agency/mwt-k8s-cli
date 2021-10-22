@@ -11,9 +11,9 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli\Command;
+namespace Mep\MepWebToolkitK8sCli\Command;
 
-use Mep\MwtK8sCli\Config\Argument;
+use Mep\MepWebToolkitK8sCli\Config\Argument;
 use RuntimeException;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;

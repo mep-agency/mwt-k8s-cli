@@ -11,10 +11,10 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli\Service;
+namespace Mep\MepWebToolkitK8sCli\Service;
 
-use Mep\MwtK8sCli\Exception\StopExecutionException;
-use Mep\MwtK8sCli\K8sCli;
+use Mep\MepWebToolkitK8sCli\Exception\StopExecutionException;
+use Mep\MepWebToolkitK8sCli\K8sCli;
 use RenokiCo\PhpK8s\Kinds\K8sResource;
 use RenokiCo\PhpK8s\Kinds\K8sSecret;
 use RenokiCo\PhpK8s\KubernetesCluster;

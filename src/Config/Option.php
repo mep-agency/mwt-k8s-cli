@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli\Config;
+namespace Mep\MepWebToolkitK8sCli\Config;
 
 /**
  * @author Marco Lipparini <developer@liarco.net>

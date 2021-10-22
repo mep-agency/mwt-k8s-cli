@@ -11,10 +11,10 @@
 
 declare(strict_types=1);
 
-use Mep\MwtK8sCli\Application;
-use Mep\MwtK8sCli\Command\AppGetCdServiceAccountCommand;
-use Mep\MwtK8sCli\Command\SuperUserGetConfigCommand;
-use Mep\MwtK8sCli\Factory\KubernetesClusterFactory;
+use Mep\MepWebToolkitK8sCli\Application;
+use Mep\MepWebToolkitK8sCli\Command\AppGetCdServiceAccountCommand;
+use Mep\MepWebToolkitK8sCli\Command\SuperUserGetConfigCommand;
+use Mep\MepWebToolkitK8sCli\Factory\KubernetesClusterFactory;
 use RenokiCo\PhpK8s\KubernetesCluster;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use function Symfony\Component\DependencyInjection\Loader\Configurator\tagged_iterator;
@@ -45,10 +45,10 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         ->alias(KubernetesCluster::class, 'k8s_cluster')
     ;
 
-    $services->load('Mep\\MwtK8sCli\\Service\\', '../src/Service/*');
+    $services->load('Mep\\MepWebToolkitK8sCli\\Service\\', '../src/Service/*');
 
     // Commands
-    $services->load('Mep\\MwtK8sCli\\Command\\', '../src/Command/*');
+    $services->load('Mep\\MepWebToolkitK8sCli\\Command\\', '../src/Command/*');
 
     $services->get(SuperUserGetConfigCommand::class)
         ->arg('$defaultOutputPath', '%working_dir%/su-config.yaml')

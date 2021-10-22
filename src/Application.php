@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli;
+namespace Mep\MepWebToolkitK8sCli;
 
 use Symfony\Component\Console\Application as SymfonyApplication;
 use Symfony\Component\Console\Command\Command;

@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli\Factory;
+namespace Mep\MepWebToolkitK8sCli\Factory;
 
 use RenokiCo\PhpK8s\KubernetesCluster;
 

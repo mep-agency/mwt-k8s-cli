@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli\Exception;
+namespace Mep\MepWebToolkitK8sCli\Exception;
 
 use RuntimeException;
 

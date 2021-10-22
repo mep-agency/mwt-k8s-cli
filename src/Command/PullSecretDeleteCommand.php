@@ -11,13 +11,13 @@
 
 declare(strict_types=1);
 
-namespace Mep\MwtK8sCli\Command;
+namespace Mep\MepWebToolkitK8sCli\Command;
 
-use Mep\MwtK8sCli\Config\Argument;
-use Mep\MwtK8sCli\Config\Option;
-use Mep\MwtK8sCli\Contract\AbstractK8sCommand;
-use Mep\MwtK8sCli\K8sCli;
-use Mep\MwtK8sCli\Service\K8sPullSecretGenerator;
+use Mep\MepWebToolkitK8sCli\Config\Argument;
+use Mep\MepWebToolkitK8sCli\Config\Option;
+use Mep\MepWebToolkitK8sCli\Contract\AbstractK8sCommand;
+use Mep\MepWebToolkitK8sCli\K8sCli;
+use Mep\MepWebToolkitK8sCli\Service\K8sPullSecretGenerator;
 use RenokiCo\PhpK8s\KubernetesCluster;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
